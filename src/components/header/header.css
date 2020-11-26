@@ -1,0 +1,20 @@
+.header-nav{
+  display: flex;
+  padding: 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav > li{
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(113, 119, 113, 0.51);
+}
+@media (max-width: 480px){
+  .header-nav {
+    display: none;
+  }
+}

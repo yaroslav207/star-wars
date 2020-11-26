@@ -1,0 +1,25 @@
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    background: rgba(113, 119, 113, 0.51);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.content-wrapper__left-wrapper{
+    flex: 0 0 50%;
+
+}
+.content-wrapper__right-wrapper{
+    flex: 0 0 50%;
+}
+@media (max-width: 1240px) {
+    .content-wrapper__left-wrapper{
+        flex: 0 0 100%;
+
+    }
+    .content-wrapper__right-wrapper{
+        flex: 0 0 100%;
+    }
+}

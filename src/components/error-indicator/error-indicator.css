@@ -1,0 +1,29 @@
+.error-wrapper__title{
+    display: block;
+    color: #ffcd00;
+    font-size: 54px;
+    font-family: Calibri;
+}
+.error-wrapper__error-massage{
+    display: block;
+    color: #ffcd00;
+    font-size: 24px;
+    font-family: "Calibri Light";
+}
+.error-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.error-wrapper img{
+    position: relative;
+    width: 90px;
+    animation-duration: 10s;
+}
+

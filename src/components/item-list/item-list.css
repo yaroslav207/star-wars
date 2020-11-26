@@ -1,0 +1,28 @@
+.item-list-wrapper{
+  flex: 0 1 100%;
+}
+
+.list{
+  padding: 20px;
+}
+
+.list li{
+  height: 35px;
+  font-size: 20px;
+
+  cursor: pointer;
+  background: rgb(45, 45, 45);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+
+
+}
+.list li:hover {
+  color: #00a379;
+  background: rgb(45, 45, 45);
+}
+
+.list:last-child{
+  border-bottom: none;
+}
